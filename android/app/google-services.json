@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "103431719923",
+    "project_id": "more-app-d670d",
+    "storage_bucket": "more-app-d670d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103431719923:android:61ba0fd46b2115c14e6086",
+        "android_client_info": {
+          "package_name": "com.example.more_in"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG7xL4Ls1yU2kMJJjIrscs24Tuw4w9PDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
