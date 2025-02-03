@@ -59,7 +59,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
   }
 
   void goToNextView() {
-    Future.delayed(Duration(seconds: 2), () {
+    Future.delayed(Duration(seconds: 1), () {
      Navigator.pushReplacement( context, MaterialPageRoute(builder: (context) => WebViewScreen()), );
     });
   }
