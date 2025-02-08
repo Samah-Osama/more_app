@@ -5,7 +5,7 @@ import 'package:more_in/features/webview/presentation/view_model/web_view_cubit/
 import 'package:more_in/features/webview/presentation/views/widgets/web_view_screen_body.dart';
 
 class WebViewScreen extends StatelessWidget {
-  WebViewScreen({super.key});
+  const WebViewScreen({super.key});
 
   static String id = 'WebViewScreen';
   // String? url;

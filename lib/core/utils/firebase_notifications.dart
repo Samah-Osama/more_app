@@ -124,7 +124,7 @@ class FirebaseNotifications {
   void handleMessage(RemoteMessage? message ,Duration? duration) async {
     if (message == null || message.data.isEmpty) {
     } else {
-      String? url = null;
+      String? url;
       message.data.forEach((key, value) {
         if (key == "url") {
           url = value;
@@ -147,7 +147,7 @@ class FirebaseNotifications {
   // }
 
   String handleForegroundMessageUrl(RemoteMessage message) {
-    String? url = null;
+    String? url;
     message.data.forEach((key, value) {
       if (key == "url") {
         url = value;
